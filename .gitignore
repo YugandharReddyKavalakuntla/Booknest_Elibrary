@@ -1,0 +1,38 @@
+# ====== BACKEND (.gitignore for Java + Spring Boot + STS) ======
+/booknest-backend/target/
+/booknest-backend/.classpath
+/booknest-backend/.project
+/booknest-backend/.settings/
+/booknest-backend/.idea/
+/booknest-backend/.vscode/
+*.iml
+
+# Logs
+/booknest-backend/*.log
+/booknest-backend/logs/
+
+# Secrets
+/booknest-backend/*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# ====== FRONTEND (.gitignore for Node.js + React + VS Code) ======
+/booknest-frontend/node_modules/
+/booknest-frontend/.next/
+/booknest-frontend/.env
+/booknest-frontend/.env.local
+/booknest-frontend/.env.production
+/booknest-frontend/.vscode/
+/booknest-frontend/build/
+/booknest-frontend/dist/
+
+# Log files
+/booknest-frontend/npm-debug.log*
+/booknest-frontend/yarn-debug.log*
+/booknest-frontend/yarn-error.log*
+
+# Misc
+*.log
+.DS_Store
